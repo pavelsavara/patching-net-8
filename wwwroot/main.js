@@ -18,8 +18,10 @@ async function main() {
     const testClass = library.BlazorMemoryInfo.TestClass;
 
     console.log("Start allocating objects...");
-    testClass?.AllocateObjects(3560);
+    //testClass?.AllocateObjects(3890);
+    testClass?.AllocateObjects(3790);
     console.log("Disposing allocated objects...");
+    testClass?.DisposeObjects();
     testClass?.DisposeObjects();
 
     runtime.INTERNAL.mono_wasm_perform_heapshot();

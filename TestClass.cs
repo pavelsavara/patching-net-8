@@ -29,6 +29,6 @@ public partial class TestClass
         {
             child.Dispose();
         }
-        _objects.Clear();
+        // _objects.Clear();
     }
 }
