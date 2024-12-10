@@ -81,3 +81,5 @@ dotnet build -bl:net8-patched.binlog
 ```js
 getDotnetRuntime(0).INTERNAL.mono_wasm_perform_heapshot()
 ```
+
+[dotnet-heapview](https://github.com/1hub/dotnet-heapview)
