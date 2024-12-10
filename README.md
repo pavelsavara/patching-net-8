@@ -31,7 +31,7 @@ In my case that's `PackageDirectory = c:\Dev\.dotnet\packs\Microsoft.NETCore.App
 
 # build your own runtime pack
 
-Clone and checkout the custom branch
+Clone and checkout the [custom branch](https://github.com/dotnet/runtime/compare/release/8.0-staging...pavelsavara:runtime:wasm-heapshot-8?expand=1)
 ```sh
 git clone git@github.com:pavelsavara/runtime.git
 git checkout --track origin/wasm-heapshot-8
