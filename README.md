@@ -82,4 +82,4 @@ dotnet build -bl:net8-patched.binlog
 getDotnetRuntime(0).INTERNAL.mono_wasm_perform_heapshot()
 ```
 
-[dotnet-heapview](https://github.com/1hub/dotnet-heapview)
+[dotnet-heapview](https://github.com/1hub/dotnet-heapview) - [online](https://1hub.github.io/dotnet-heapview/)
