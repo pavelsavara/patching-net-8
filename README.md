@@ -83,3 +83,5 @@ getDotnetRuntime(0).INTERNAL.mono_wasm_perform_heapshot()
 ```
 
 [dotnet-heapview](https://github.com/1hub/dotnet-heapview) - [online](https://1hub.github.io/dotnet-heapview/)
+
+[mono-gcdump](https://github.com/filipnavara/mono-gcdump)
